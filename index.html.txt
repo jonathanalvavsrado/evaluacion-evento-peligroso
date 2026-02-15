@@ -1,0 +1,49 @@
+index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Evaluación Inicial de Necesidades</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Formulario de Evaluación Inicial de Necesidades</h1>
+
+    <h2>Datos del Evento</h2>
+    <form>
+        <label>Provincia:</label>
+        <input type="text" value="Chimborazo"><br>
+
+        <label>Cantón:</label>
+        <input type="text" value="Alausí"><br>
+
+        <label>Fecha del Evento:</label>
+        <input type="date"><br>
+
+        <label>Tipo de Evento:</label>
+        <input type="text" value="Deslizamiento"><br>
+
+        <h2>Población Impactada</h2>
+        <label>Número de personas afectadas:</label>
+        <input type="number"><br>
+
+        <h2>Daños en Viviendas</h2>
+        <label>Viviendas destruidas:</label>
+        <input type="number"><br>
+
+        <label>Viviendas afectadas:</label>
+        <input type="number"><br>
+
+        <h2>Servicios Afectados</h2>
+        <label>Servicios interrumpidos:</label>
+        <input type="text"><br>
+
+        <h2>Necesidades Prioritarias</h2>
+        <textarea rows="4" cols="50"></textarea><br>
+
+        <button type="submit">Enviar Evaluación</button>
+    </form>
+
+</body>
+</html>
